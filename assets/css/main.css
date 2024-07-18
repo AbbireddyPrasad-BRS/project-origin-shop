@@ -1,0 +1,173 @@
+nav {
+  background: #0033dd;
+}
+
+/* Brand Logo
+-----------------
+*/
+
+.brand-logo img {
+  max-width: 220px;
+  margin-top: 15px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #fff;
+}
+
+
+/* Header SLider
+-----------------
+*/
+
+#SliderContent h5 {
+  max-width: 400px;
+  font-size: 1.2rem;
+}
+
+.slider h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+.slider .slides li::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+.slider .slides li img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider .slides li {
+  background-image: url(../img/header-bg.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.dropdown-content {
+  top: 65px!important;
+  width: 100%!important;
+}
+
+/*  New Shepard Section
+------------------------
+*/
+
+#newShepard {
+  background-image: url(../img/home-new-shepard-hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+#newShepard h2 {
+  font-weight: 700;
+  font-size: 5.5rem;
+  color: #fff;
+}
+
+#newShepard h5 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Featured Products
+-----------------------
+*/
+
+#featuredProduct {
+  background-color: #fafafa;
+}
+
+#featuredProduct .card ,
+#fanfavorite .card{
+  min-height: 450px;
+}
+
+#featuredProduct .card .card-content .card-title,
+#fanfavorite .card .card-content .card-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* Spotlight Products
+-------------------
+*/
+
+#spotLightProducts {
+  background-color: #0033dd;
+  color: #fff;
+}
+
+#spotLightProducts .card {
+  background: none;
+}
+
+#spotLightProducts .card .card-content {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Footer
+-------------------
+*/
+
+footer.newGrey {
+  background-color: #222222;
+  padding-top: 5em;
+}
+
+footer.newGrey .borderTop {
+  border-top: 1px solid rgba(211, 211, 211, 0.151);
+  padding: 2em 0;
+  font-size: 11px;
+}
+
+footer.newGrey p {
+  color: grey;
+}
+
+.btn-brand {
+  background-color: #03d;
+}
+
+.dropdown-content {
+  background-color: #0033dd;
+}
+
+.quickLinks h5 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.quickLinks ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.quickLinks ul li a{
+  font-size: 1rem;
+  color: grey;
+}
